@@ -2,6 +2,12 @@
 
 A compact, hardware-isolated digital oscilloscope and logic analyzer built around the Raspberry Pi Pico 2 (RP2350) microcontroller. This project focuses on high-speed ADC sampling, hardware-level circuit protection, and signal conditioning frontend design.
 
+## Project Status: Active Development (Phase 2)
+
+* **Phase 1: Hardware Design (Completed):** first version of the PCB schematic and routing finalized in KiCad. 3D enclosure designed in FreeCAD.
+* **Phase 2: Prototyping & Assembly (In Progress):** Component sourcing (BOM) completed. Currently awaiting parts for manual SMT assembly and initial hardware bring-up/validation.
+* **Phase 3: Firmware Integration (Upcoming):** Flashing and calibrating the modified sigrok-pico core firmware.
+
 ## System Architecture Overview
 
 The system captures analog and digital signals, conditions them through an analog frontend to match the safe input voltage range of the RP2350, and streams the processed data over USB to a host PC using PulseView.
