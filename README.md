@@ -21,6 +21,7 @@ Designed and routed a custom single-board layout using **KiCad**, prioritizing s
 * **Analog Frontend (AFE):** Implemented an input impedance matching network (1 MΩ standard) paired with an operational amplifier configuration for signal attenuation and shifting, allowing safe sampling of signals beyond the microcontroller's native 3.3V limit.
 * **Overvoltage & Transient Protection:** Integrated clamping diodes to protect the RP2350 GPIO and ADC pins from accidental overvoltage spikes.
 * **USB Port Isolation:** Implemented galvanic isolation on the USB data and power lines to decouple the circuit from the host PC's ground loop, mitigating switching noise and protecting test equipment.
+<img src="docs/Photos/PCB_V1_render.png" width="50%">
 
 ---
 
